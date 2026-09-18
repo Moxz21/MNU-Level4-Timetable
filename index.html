@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f377f">
+  <meta name="description" content="Minia National University Faculty of Computers and AI Level 4 first semester timetable.">
+  <title>MNU Level 4 Timetable</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow" aria-hidden="true"></div>
+  <div class="app-shell">
+    <header class="site-header">
+      <div class="header-brand">
+        <img class="header-logo university-logo" src="assets/university-logo.jpg" alt="Minia National University logo">
+        <div class="brand-text">
+          <div class="brand-kicker">MINIA NATIONAL UNIVERSITY</div>
+          <div class="brand-title">Faculty of Computers and Artificial Intelligence</div>
+          <div class="brand-meta">Level 4 · First Semester · Academic Year 2026/2027</div>
+        </div>
+        <img class="header-logo faculty-logo" src="assets/faculty-logo.jpg" alt="Faculty of Computers and Artificial Intelligence logo">
+      </div>
+    </header>
+
+    <main>
+      <section id="selectionScreen" class="hero-section">
+        <div class="hero-copy">
+          <div class="hero-logos" aria-hidden="true">
+            <img src="assets/university-logo.jpg" alt="">
+            <div class="hero-separator"></div>
+            <img src="assets/faculty-logo.jpg" alt="">
+          </div>
+          <span class="eyebrow">LEVEL 4 · FIRST SEMESTER · 2026/2027</span>
+          <h1>Your timetable.<br><span>Exactly for your group.</span></h1>
+          <p>Choose your Group and Section to generate the sessions that apply to you from the official Level 4 timetable.</p>
+          <div class="trust-row">
+            <span>✓ Official timetable data</span>
+            <span>✓ Group-aware filtering</span>
+            <span>✓ Print-ready PDF</span>
+          </div>
+        </div>
+
+        <div class="selection-card">
+          <div class="card-title-row">
+            <div>
+              <div class="eyebrow">PERSONALIZED SCHEDULE</div>
+              <h2>Choose your Group &amp; Section</h2>
+            </div>
+            <div class="mini-badge">SELECT → VIEW → PRINT</div>
+          </div>
+
+          <div class="selection-step">
+            <div class="step-number">01</div>
+            <div>
+              <h3>Select your group</h3>
+              <p>Group color is carried into the timetable and printable PDF.</p>
+            </div>
+          </div>
+          <div id="groupOptions" class="option-grid group-grid" role="group" aria-label="Group"></div>
+
+          <div class="selection-step second-step">
+            <div class="step-number">02</div>
+            <div>
+              <h3>Select your section</h3>
+              <p id="sectionHelp">Sections available for the selected group.</p>
+            </div>
+          </div>
+          <div id="sectionOptions" class="option-grid section-grid" role="group" aria-label="Section"></div>
+
+          <button id="viewBtn" class="primary-btn" type="button" disabled>
+            <span>View My Timetable</span>
+            <span aria-hidden="true">→</span>
+          </button>
+          <div id="selectionStatus" class="selection-status" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="timetableScreen" class="timetable-screen hidden" aria-live="polite">
+        <div class="print-header" aria-hidden="true">
+          <img src="assets/university-logo.jpg" alt="">
+          <div>
+            <div class="print-title">Minia National University</div>
+            <div class="print-subtitle">Faculty of Computers and Artificial Intelligence</div>
+            <div class="print-meta">Level 4 · First Semester · Academic Year 2026/2027</div>
+          </div>
+          <div class="print-selection">GROUP <span id="printGroup">1</span> · SECTION <span id="printSection">1</span></div>
+          <img src="assets/faculty-logo.jpg" alt="">
+        </div>
+        <div class="timetable-header">
+          <div class="identity-block">
+            <div class="eyebrow">PERSONALIZED TIMETABLE</div>
+            <h2 id="studentTitle">Group 1 · Section 1</h2>
+            <p>Minia National University · Faculty of Computers and Artificial Intelligence · Level 4 · First Semester · 2026/2027</p>
+          </div>
+          <div class="header-actions">
+            <button id="changeBtn" class="secondary-btn" type="button">Change Selection</button>
+            <button id="printBtn" class="secondary-btn" type="button">Print / Save PDF</button>
+            <button id="downloadBtn" class="primary-btn compact" type="button"><span>Download My Timetable</span><span aria-hidden="true">↓</span></button>
+          </div>
+        </div>
+
+        <div id="colorBanner" class="color-banner"></div>
+        <div id="daySummary" class="day-summary"></div>
+
+        <div id="timetableGrid" class="timetable-grid"></div>
+        <div id="mobileTimetable" class="mobile-timetable"></div>
+        <div id="emptyState" class="empty-state hidden">
+          <div class="empty-icon">—</div>
+          <h3>No sessions found</h3>
+          <p>This Group + Section combination does not match any section-specific data in the official timetable.</p>
+          <button id="emptyChangeBtn" class="secondary-btn" type="button">Change Selection</button>
+        </div>
+
+        <div class="legend" id="legend">
+          <span><i class="legend-swatch lecture"></i> Lecture</span>
+          <span><i class="legend-swatch section"></i> Section / Lab</span>
+          <span><i class="legend-swatch group"></i> Group identity color</span>
+          <span class="legend-time">Times shown in 12-hour format</span>
+        </div>
+        <div class="source-note">Data source: official Level 4 timetable PDF supplied for this project. No outside timetable data is used.</div>
+      </section>
+    </main>
+
+    <footer class="site-footer" aria-label="Creator credit">
+      <span class="footer-credit-label">Created by</span>
+      <span class="footer-credit-name">Muhammed Moaz</span>
+    </footer>
+  </div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
