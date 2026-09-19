@@ -16,7 +16,12 @@ window.TIMETABLE_DATA = {
       "11:00 AM – 01:00 PM",
       "01:00 PM – 03:00 PM",
       "03:00 PM – 05:00 PM"
-    ]
+    ],
+    "sessionCount": 75,
+    "sectionAssignmentCount": 60,
+    "lectureRecordCount": 15,
+    "sectionsIncluded": true,
+    "sectionRecordCount": 60
   },
 
   "groups": [
@@ -39,10 +44,6 @@ window.TIMETABLE_DATA = {
 
   "sessions": [
 
-    /* =========================
-       GROUP 1 — SECTION 1
-       ========================= */
-
     {
       "day": "Sunday",
       "group": 1,
@@ -51,7 +52,7 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [1],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "B2"
     },
 
@@ -75,13 +76,33 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [1],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (11)"
     },
 
-    /* =========================
-       GROUP 1 — SECTION 2
-       ========================= */
+    {
+      "day": "Wednesday",
+      "group": 1,
+      "timeSlot": "11:00 AM – 01:00 PM",
+      "course": "Selected Topics AI(1)",
+      "type": "Section",
+      "kind": "section",
+      "sections": [1],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
+    },
+
+    {
+      "day": "Sunday",
+      "group": 1,
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "Selected Topics AI(1)",
+      "type": "Section",
+      "kind": "section",
+      "sections": [2],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
+    },
 
     {
       "day": "Sunday",
@@ -103,7 +124,7 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [2],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "B2"
     },
 
@@ -115,25 +136,9 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [2],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (1)"
     },
-
-    {
-      "day": "Monday",
-      "group": 1,
-      "timeSlot": "03:00 PM – 05:00 PM",
-      "course": "Selected Topics AI(1)",
-      "type": "Section",
-      "kind": "section",
-      "sections": [2],
-      "instructor": null,
-      "location": "IOT(1,2)"
-    },
-
-    /* =========================
-       GROUP 1 — SECTION 3
-       ========================= */
 
     {
       "day": "Monday",
@@ -143,32 +148,20 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [3],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (2)"
     },
 
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "group": 1,
-      "timeSlot": "03:00 PM – 05:00 PM",
+      "timeSlot": "01:00 PM – 03:00 PM",
       "course": "Selected Topics AI(1)",
       "type": "Section",
       "kind": "section",
       "sections": [3],
-      "instructor": null,
-      "location": "IOT(1,2)"
-    },
-
-    {
-      "day": "Wednesday",
-      "group": 1,
-      "timeSlot": "11:00 AM – 01:00 PM",
-      "course": "Pattern Recognition",
-      "type": "Section",
-      "kind": "section",
-      "sections": [3],
-      "instructor": null,
-      "location": "Lab (11)"
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
     },
 
     {
@@ -183,20 +176,16 @@ window.TIMETABLE_DATA = {
       "location": "Lab (1,5)"
     },
 
-    /* =========================
-       GROUP 1 — SECTION 4
-       ========================= */
-
     {
-      "day": "Monday",
+      "day": "Wednesday",
       "group": 1,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "Selected Topics AI(1)",
+      "timeSlot": "11:00 AM – 01:00 PM",
+      "course": "Pattern Recognition",
       "type": "Section",
       "kind": "section",
-      "sections": [4],
-      "instructor": null,
-      "location": "IOT(1)"
+      "sections": [3],
+      "instructor": "Not specified in PDF",
+      "location": "Lab (11)"
     },
 
     {
@@ -207,8 +196,32 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [4],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (2,6)"
+    },
+
+    {
+      "day": "Tuesday",
+      "group": 1,
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "Selected Topics AI(1)",
+      "type": "Section",
+      "kind": "section",
+      "sections": [4],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
+    },
+
+    {
+      "day": "Wednesday",
+      "group": 1,
+      "timeSlot": "01:00 PM – 03:00 PM",
+      "course": "Deep Learning",
+      "type": "Section",
+      "kind": "section",
+      "sections": [4],
+      "instructor": "Sohair, Hader",
+      "location": "Lab (1,5)"
     },
 
     {
@@ -219,13 +232,21 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [4],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab Lab(9,10)"
     },
 
-    /* =========================
-       GROUP 1 — SECTION 5
-       ========================= */
+    {
+      "day": "Sunday",
+      "group": 1,
+      "timeSlot": "01:00 PM – 03:00 PM",
+      "course": "Selected Topics AI(1)",
+      "type": "Section",
+      "kind": "section",
+      "sections": [5],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
+    },
 
     {
       "day": "Sunday",
@@ -240,18 +261,6 @@ window.TIMETABLE_DATA = {
     },
 
     {
-      "day": "Sunday",
-      "group": 1,
-      "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "Selected Topics AI(1)",
-      "type": "Section",
-      "kind": "section",
-      "sections": [5],
-      "instructor": null,
-      "location": "IOT(1,2)"
-    },
-
-    {
       "day": "Tuesday",
       "group": 1,
       "timeSlot": "01:00 PM – 03:00 PM",
@@ -259,7 +268,7 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [5],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (2,6)"
     },
 
@@ -271,24 +280,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [5],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab Lab(9,10)"
-    },
-
-    /* =========================
-       GROUP 2 — SECTION 6
-       ========================= */
-
-    {
-      "day": "Monday",
-      "group": 2,
-      "timeSlot": "11:00 AM – 01:00 PM",
-      "course": "Selected Topics AI(1)",
-      "type": "Section",
-      "kind": "section",
-      "sections": [6],
-      "instructor": null,
-      "location": "IOT(1)"
     },
 
     {
@@ -299,11 +292,35 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [6],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (1,2)"
     },
 
     {
+      "day": "Monday",
+      "group": 2,
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "Selected Topics AI(1)",
+      "type": "Section",
+      "kind": "section",
+      "sections": [6],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(2)"
+    },
+
+    {
+      "day": "Wednesday",
+      "group": 2,
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "Computational Perception",
+      "type": "Section",
+      "kind": "section",
+      "sections": [6],
+      "instructor": "Not specified in PDF",
+      "location": "Lab(9,10)"
+    },
+
+    {
       "day": "Wednesday",
       "group": 2,
       "timeSlot": "11:00 AM – 01:00 PM",
@@ -316,20 +333,28 @@ window.TIMETABLE_DATA = {
     },
 
     {
+      "day": "Sunday",
+      "group": 2,
+      "timeSlot": "11:00 AM – 01:00 PM",
+      "course": "Selected Topics AI(1)",
+      "type": "Section",
+      "kind": "section",
+      "sections": [7],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
+    },
+
+    {
       "day": "Wednesday",
       "group": 2,
       "timeSlot": "03:00 PM – 05:00 PM",
       "course": "Computational Perception",
       "type": "Section",
       "kind": "section",
-      "sections": [6],
-      "instructor": null,
+      "sections": [7],
+      "instructor": "Not specified in PDF",
       "location": "Lab(9,10)"
     },
-
-    /* =========================
-       GROUP 2 — SECTION 7
-       ========================= */
 
     {
       "day": "Wednesday",
@@ -339,7 +364,7 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [7],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (11)"
     },
 
@@ -356,22 +381,6 @@ window.TIMETABLE_DATA = {
     },
 
     {
-      "day": "Wednesday",
-      "group": 2,
-      "timeSlot": "03:00 PM – 05:00 PM",
-      "course": "Computational Perception",
-      "type": "Section",
-      "kind": "section",
-      "sections": [7],
-      "instructor": null,
-      "location": "Lab(9,10)"
-    },
-
-    /* =========================
-       GROUP 2 — SECTION 8
-       ========================= */
-
-    {
       "day": "Sunday",
       "group": 2,
       "timeSlot": "01:00 PM – 03:00 PM",
@@ -384,15 +393,15 @@ window.TIMETABLE_DATA = {
     },
 
     {
-      "day": "Sunday",
+      "day": "Monday",
       "group": 2,
-      "timeSlot": "03:00 PM – 05:00 PM",
+      "timeSlot": "01:00 PM – 03:00 PM",
       "course": "Selected Topics AI(1)",
       "type": "Section",
       "kind": "section",
       "sections": [8],
-      "instructor": null,
-      "location": "IOT(1,2)"
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
     },
 
     {
@@ -403,7 +412,7 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [8],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (2)"
     },
 
@@ -415,24 +424,20 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [8],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (6)"
     },
 
-    /* =========================
-       GROUP 2 — SECTION 9
-       ========================= */
-
     {
-      "day": "Monday",
+      "day": "Tuesday",
       "group": 2,
-      "timeSlot": "01:00 PM – 03:00 PM",
+      "timeSlot": "03:00 PM – 05:00 PM",
       "course": "Selected Topics AI(1)",
       "type": "Section",
       "kind": "section",
       "sections": [9],
-      "instructor": null,
-      "location": "IOT(2)"
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
     },
 
     {
@@ -443,20 +448,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [9],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (2,6)"
-    },
-
-    {
-      "day": "Wednesday",
-      "group": 2,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "Computational Perception",
-      "type": "Section",
-      "kind": "section",
-      "sections": [9],
-      "instructor": null,
-      "location": "Lab(9,10)"
     },
 
     {
@@ -471,20 +464,28 @@ window.TIMETABLE_DATA = {
       "location": "Lab (1,5)"
     },
 
-    /* =========================
-       GROUP 2 — SECTION 10
-       ========================= */
+    {
+      "day": "Wednesday",
+      "group": 2,
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "Computational Perception",
+      "type": "Section",
+      "kind": "section",
+      "sections": [9],
+      "instructor": "Not specified in PDF",
+      "location": "Lab(9,10)"
+    },
 
     {
-      "day": "Monday",
+      "day": "Sunday",
       "group": 2,
       "timeSlot": "01:00 PM – 03:00 PM",
       "course": "Selected Topics AI(1)",
       "type": "Section",
       "kind": "section",
       "sections": [10],
-      "instructor": null,
-      "location": "IOT(2)"
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
     },
 
     {
@@ -495,20 +496,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [10],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (2,6)"
-    },
-
-    {
-      "day": "Wednesday",
-      "group": 2,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "Computational Perception",
-      "type": "Section",
-      "kind": "section",
-      "sections": [10],
-      "instructor": null,
-      "location": "Lab(9,10)"
     },
 
     {
@@ -523,9 +512,17 @@ window.TIMETABLE_DATA = {
       "location": "Lab (1,5)"
     },
 
-    /* =========================
-       GROUP 3 — SECTION 11
-       ========================= */
+    {
+      "day": "Wednesday",
+      "group": 2,
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "Computational Perception",
+      "type": "Section",
+      "kind": "section",
+      "sections": [10],
+      "instructor": "Not specified in PDF",
+      "location": "Lab(9,10)"
+    },
 
     {
       "day": "Tuesday",
@@ -535,8 +532,32 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [11],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (2,6)"
+    },
+
+    {
+      "day": "Wednesday",
+      "group": 3,
+      "timeSlot": "01:00 PM – 03:00 PM",
+      "course": "Computational Perception",
+      "type": "Section",
+      "kind": "section",
+      "sections": [11],
+      "instructor": "Not specified in PDF",
+      "location": "Lab (9,10)"
+    },
+
+    {
+      "day": "Wednesday",
+      "group": 3,
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "Selected Topics AI(1)",
+      "type": "Section",
+      "kind": "section",
+      "sections": [11],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
     },
 
     {
@@ -552,20 +573,16 @@ window.TIMETABLE_DATA = {
     },
 
     {
-      "day": "Wednesday",
+      "day": "Sunday",
       "group": 3,
-      "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "Computational Perception",
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "Selected Topics AI(1)",
       "type": "Section",
       "kind": "section",
-      "sections": [11],
-      "instructor": null,
-      "location": "Lab (9,10)"
+      "sections": [12],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
     },
-
-    /* =========================
-       GROUP 3 — SECTION 12
-       ========================= */
 
     {
       "day": "Tuesday",
@@ -575,8 +592,20 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [12],
-      "instructor": null,
+      "instructor": "Not specified in PDF",
       "location": "Lab (2,6)"
+    },
+
+    {
+      "day": "Wednesday",
+      "group": 3,
+      "timeSlot": "01:00 PM – 03:00 PM",
+      "course": "Computational Perception",
+      "type": "Section",
+      "kind": "section",
+      "sections": [12],
+      "instructor": "Not specified in PDF",
+      "location": "Lab (9,10)"
     },
 
     {
@@ -590,22 +619,6 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair, Hader",
       "location": "Lab (1,5)"
     },
-
-    {
-      "day": "Wednesday",
-      "group": 3,
-      "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "Computational Perception",
-      "type": "Section",
-      "kind": "section",
-      "sections": [12],
-      "instructor": null,
-      "location": "Lab (9,10)"
-    },
-
-    /* =========================
-       GROUP 3 — SECTION 13
-       ========================= */
 
     {
       "day": "Sunday",
@@ -620,15 +633,15 @@ window.TIMETABLE_DATA = {
     },
 
     {
-      "day": "Sunday",
+      "day": "Monday",
       "group": 3,
-      "timeSlot": "11:00 AM – 01:00 PM",
-      "course": "Selected Topics AI(1)",
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "Computational Perception",
       "type": "Section",
       "kind": "section",
       "sections": [13],
-      "instructor": null,
-      "location": "IOT(1)"
+      "instructor": "Not specified in PDF",
+      "location": "Lab (1)"
     },
 
     {
@@ -639,100 +652,44 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [13],
-      "instructor": null,
-      "location": "Lab (1)"
-    },
-
-    {
-      "day": "Monday",
-      "group": 3,
-      "timeSlot": "03:00 PM – 05:00 PM",
-      "course": "Computational Perception",
-      "type": "Section",
-      "kind": "section",
-      "sections": [13],
-      "instructor": null,
-      "location": "Lab (1)"
-    },
-
-    /* =========================
-       GROUP 3 — SECTION 14
-       ========================= */
-
-    {
-      "day": "Sunday",
-      "group": 3,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "Selected Topics AI(1)",
-      "type": "Section",
-      "kind": "section",
-      "sections": [14],
-      "instructor": null,
-      "location": "IOT(1)"
-    },
-
-    {
-      "day": "Sunday",
-      "group": 3,
-      "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "Computational Perception",
-      "type": "Section",
-      "kind": "section",
-      "sections": [14],
-      "instructor": null,
-      "location": "B2"
-    },
-
-    {
-      "day": "Sunday",
-      "group": 3,
-      "timeSlot": "03:00 PM – 05:00 PM",
-      "course": "Deep Learning",
-      "type": "Section",
-      "kind": "section",
-      "sections": [14],
-      "instructor": "Sohair",
+      "instructor": "Not specified in PDF",
       "location": "Lab (1)"
     },
 
     {
       "day": "Tuesday",
       "group": 3,
-      "timeSlot": "03:00 PM – 05:00 PM",
-      "course": "Pattern Recognition",
+      "timeSlot": "11:00 AM – 01:00 PM",
+      "course": "Selected Topics AI(1)",
       "type": "Section",
       "kind": "section",
-      "sections": [14],
-      "instructor": null,
-      "location": "Lab (2,6)"
+      "sections": [13],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
     },
-
-    /* =========================
-       GROUP 3 — SECTION 15
-       ========================= */
 
     {
       "day": "Sunday",
       "group": 3,
       "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "Deep Learning",
+      "course": "Computational Perception",
       "type": "Section",
       "kind": "section",
-      "sections": [15],
-      "instructor": "Sohair",
-      "location": "Lab (1)"
+      "sections": [14],
+      "instructor": "Not specified in PDF",
+      "location": "B2"
     },
 
     {
       "day": "Sunday",
       "group": 3,
       "timeSlot": "03:00 PM – 05:00 PM",
-      "course": "Computational Perception",
+      "course": "Deep Learning",
       "type": "Section",
       "kind": "section",
-      "sections": [15],
-      "instructor": null,
-      "location": "B2"
+      "sections": [14],
+      "instructor": "Sohair",
+      "location": "Lab (1)"
     },
 
     {
@@ -742,8 +699,8 @@ window.TIMETABLE_DATA = {
       "course": "Selected Topics AI(1)",
       "type": "Section",
       "kind": "section",
-      "sections": [15],
-      "instructor": null,
+      "sections": [14],
+      "instructor": "Not specified in PDF",
       "location": "IOT(2)"
     },
 
@@ -754,16 +711,100 @@ window.TIMETABLE_DATA = {
       "course": "Pattern Recognition",
       "type": "Section",
       "kind": "section",
+      "sections": [14],
+      "instructor": "Not specified in PDF",
+      "location": "Lab (2,6)"
+    },
+
+    {
+      "day": "Sunday",
+      "group": 3,
+      "timeSlot": "01:00 PM – 03:00 PM",
+      "course": "Deep Learning",
+      "type": "Section",
+      "kind": "section",
       "sections": [15],
-      "instructor": null,
+      "instructor": "Sohair",
+      "location": "Lab (1)"
+    },
+
+    {
+      "day": "Sunday",
+      "group": 3,
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "Computational Perception",
+      "type": "Section",
+      "kind": "section",
+      "sections": [15],
+      "instructor": "Not specified in PDF",
+      "location": "B2"
+    },
+
+    {
+      "day": "Monday",
+      "group": 3,
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "Selected Topics AI(1)",
+      "type": "Section",
+      "kind": "section",
+      "sections": [15],
+      "instructor": "Not specified in PDF",
+      "location": "IOT(1)"
+    },
+
+    {
+      "day": "Tuesday",
+      "group": 3,
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "Pattern Recognition",
+      "type": "Section",
+      "kind": "section",
+      "sections": [15],
+      "instructor": "Not specified in PDF",
       "location": "Lab (2,6)"
     },
 
     /* =========================
-       LECTURES
+       GROUP-WIDE LECTURES
        ========================= */
 
     {
+      "day": "Sunday",
+      "group": 1,
+      "timeSlot": "01:00 PM – 03:00 PM",
+      "course": "Selected Topics AI(1)",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Not specified in PDF",
+      "location": "G (T01)"
+    },
+
+    {
+      "day": "Sunday",
+      "group": 2,
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "Selected Topics AI(1)",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Not specified in PDF",
+      "location": "G (T01)"
+    },
+
+    {
+      "day": "Sunday",
+      "group": 3,
+      "timeSlot": "11:00 AM – 01:00 PM",
+      "course": "Selected Topics AI(1)",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Not specified in PDF",
+      "location": "G (T01)"
+    },
+
+    {
       "day": "Monday",
       "group": 1,
       "timeSlot": "11:00 AM – 01:00 PM",
@@ -800,7 +841,7 @@ window.TIMETABLE_DATA = {
     },
 
     {
-      "day": "Tuesday",
+      "day": "Wednesday",
       "group": 1,
       "timeSlot": "09:00 AM – 11:00 AM",
       "course": "Computational Perception Lec.",
@@ -808,7 +849,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr Mahmoud Dirar",
-      "location": "F (T-01)"
+      "location": "G(T-02)"
     },
 
     {
@@ -820,7 +861,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr Mahmoud Dirar",
-      "location": "F (T-01)"
+      "location": "F (S-01)"
     },
 
     {
@@ -832,7 +873,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr Mahmoud Dirar",
-      "location": "F (T-01)"
+      "location": "F (S-01)"
     },
 
     {
@@ -844,7 +885,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr. Mina Younan",
-      "location": "Building F (T-02)"
+      "location": "Building F (S-02)"
     },
 
     {
@@ -856,7 +897,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr. Mina Younan",
-      "location": "Building F (T-02)"
+      "location": "Building F (S-02)"
     },
 
     {
@@ -868,7 +909,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr. Mina Younan",
-      "location": "Building F (T-02)"
+      "location": "Building F (S-02)"
     },
 
     {
@@ -880,7 +921,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr. Belal A Hamed",
-      "location": "S-01"
+      "location": "G(S-01)"
     },
 
     {
@@ -892,7 +933,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr. Belal A Hamed",
-      "location": "S-01"
+      "location": "G(S-01)"
     },
 
     {
@@ -904,7 +945,7 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr. Belal A Hamed",
-      "location": "S-01"
+      "location": "G(S-01)"
     }
   ]
 };
