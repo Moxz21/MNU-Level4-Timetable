@@ -5,13 +5,7 @@ window.TIMETABLE_DATA = {
     "level": "Level 4",
     "semester": "First Semester",
     "academicYear": "2026/2027",
-    "days": [
-      "Saturday",
-      "Sunday",
-      "Monday",
-      "Tuesday",
-      "Wednesday"
-    ],
+    "days": ["Sunday", "Monday", "Tuesday", "Wednesday"],
     "timeSlots": [
       "09:00 AM–11:00 AM",
       "11:00 AM–01:00 PM",
@@ -40,17 +34,10 @@ window.TIMETABLE_DATA = {
 
   "sessions": [
 
-    {
-      "day": "Saturday",
-      "group": 1,
-      "timeSlot": "03:00 PM – 05:00 PM",
-      "course": "Selected Topics AI(1)",
-      "type": "Section",
-      "kind": "section",
-      "sections": [1],
-      "instructor": null,
-      "location": "IOT(1,2)"
-    },
+    /* =========================
+       GROUP 1 — SECTION 1
+       ========================= */
+
     {
       "day": "Sunday",
       "group": 1,
@@ -84,6 +71,10 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (11)"
     },
+
+    /* =========================
+       GROUP 1 — SECTION 2
+       ========================= */
 
     {
       "day": "Sunday",
@@ -130,6 +121,10 @@ window.TIMETABLE_DATA = {
       "location": "IOT(1,2)"
     },
 
+    /* =========================
+       GROUP 1 — SECTION 3
+       ========================= */
+
     {
       "day": "Monday",
       "group": 1,
@@ -175,6 +170,10 @@ window.TIMETABLE_DATA = {
       "location": "Lab (1,5)"
     },
 
+    /* =========================
+       GROUP 1 — SECTION 4
+       ========================= */
+
     {
       "day": "Monday",
       "group": 1,
@@ -208,6 +207,10 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab Lab(9,10)"
     },
+
+    /* =========================
+       GROUP 1 — SECTION 5
+       ========================= */
 
     {
       "day": "Sunday",
@@ -253,6 +256,10 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab Lab(9,10)"
     },
+
+    /* =========================
+       GROUP 2 — SECTION 6
+       ========================= */
 
     {
       "day": "Monday",
@@ -299,17 +306,10 @@ window.TIMETABLE_DATA = {
       "location": "Lab(9,10)"
     },
 
-    {
-      "day": "Saturday",
-      "group": 2,
-      "timeSlot": "11:00 AM – 01:00 PM",
-      "course": "Selected Topics AI(1)",
-      "type": "Section",
-      "kind": "section",
-      "sections": [7],
-      "instructor": null,
-      "location": "IOT(1,2)"
-    },
+    /* =========================
+       GROUP 2 — SECTION 7
+       ========================= */
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -343,6 +343,10 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab(9,10)"
     },
+
+    /* =========================
+       GROUP 2 — SECTION 8
+       ========================= */
 
     {
       "day": "Sunday",
@@ -389,6 +393,10 @@ window.TIMETABLE_DATA = {
       "location": "Lab (6)"
     },
 
+    /* =========================
+       GROUP 2 — SECTION 9
+       ========================= */
+
     {
       "day": "Monday",
       "group": 2,
@@ -434,6 +442,10 @@ window.TIMETABLE_DATA = {
       "location": "Lab (1,5)"
     },
 
+    /* =========================
+       GROUP 2 — SECTION 10
+       ========================= */
+
     {
       "day": "Monday",
       "group": 2,
@@ -479,17 +491,10 @@ window.TIMETABLE_DATA = {
       "location": "Lab (1,5)"
     },
 
-    {
-      "day": "Saturday",
-      "group": 3,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "Selected Topics AI(1)",
-      "type": "Section",
-      "kind": "section",
-      "sections": [11],
-      "instructor": null,
-      "location": "IOT(1,2)"
-    },
+    /* =========================
+       GROUP 3 — SECTION 11
+       ========================= */
+
     {
       "day": "Tuesday",
       "group": 3,
@@ -524,17 +529,10 @@ window.TIMETABLE_DATA = {
       "location": "Lab (9,10)"
     },
 
-    {
-      "day": "Saturday",
-      "group": 3,
-      "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "Selected Topics AI(1)",
-      "type": "Section",
-      "kind": "section",
-      "sections": [12],
-      "instructor": null,
-      "location": "IOT(1,2)"
-    },
+    /* =========================
+       GROUP 3 — SECTION 12
+       ========================= */
+
     {
       "day": "Tuesday",
       "group": 3,
@@ -568,6 +566,10 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (9,10)"
     },
+
+    /* =========================
+       GROUP 3 — SECTION 13
+       ========================= */
 
     {
       "day": "Sunday",
@@ -614,6 +616,10 @@ window.TIMETABLE_DATA = {
       "location": "Lab (1)"
     },
 
+    /* =========================
+       GROUP 3 — SECTION 14
+       ========================= */
+
     {
       "day": "Sunday",
       "group": 3,
@@ -658,6 +664,10 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2,6)"
     },
+
+    /* =========================
+       GROUP 3 — SECTION 15
+       ========================= */
 
     {
       "day": "Sunday",
@@ -704,39 +714,9 @@ window.TIMETABLE_DATA = {
       "location": "Lab (2,6)"
     },
 
-    {
-      "day": "Saturday",
-      "group": 1,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "Selected Topics AI(1)",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": null,
-      "location": "G (T01)"
-    },
-    {
-      "day": "Saturday",
-      "group": 2,
-      "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "Selected Topics AI(1)",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": null,
-      "location": "G (T01)"
-    },
-    {
-      "day": "Saturday",
-      "group": 3,
-      "timeSlot": "11:00 AM – 01:00 PM",
-      "course": "Selected Topics AI(1)",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": null,
-      "location": "G (T01)"
-    },
+    /* =========================
+       LECTURES
+       ========================= */
 
     {
       "day": "Monday",
@@ -873,6 +853,5 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr. Belal A Hamed",
       "location": "S-01"
     }
-
   ]
 };
