@@ -5,12 +5,17 @@ window.TIMETABLE_DATA = {
     "level": "Level 4",
     "semester": "First Semester",
     "academicYear": "2026/2027",
-    "days": ["Sunday", "Monday", "Tuesday", "Wednesday"],
+    "days": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday"
+    ],
     "timeSlots": [
-      "09:00 AM–11:00 AM",
-      "11:00 AM–01:00 PM",
-      "01:00 PM–03:00 PM",
-      "03:00 PM–05:00 PM"
+      "09:00 AM – 11:00 AM",
+      "11:00 AM – 01:00 PM",
+      "01:00 PM – 03:00 PM",
+      "03:00 PM – 05:00 PM"
     ]
   },
 
@@ -49,6 +54,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "B2"
     },
+
     {
       "day": "Sunday",
       "group": 1,
@@ -60,6 +66,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair, Shahd",
       "location": "Lab (1,9)"
     },
+
     {
       "day": "Wednesday",
       "group": 1,
@@ -87,6 +94,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair",
       "location": "Lab (1)"
     },
+
     {
       "day": "Sunday",
       "group": 1,
@@ -98,6 +106,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "B2"
     },
+
     {
       "day": "Monday",
       "group": 1,
@@ -109,6 +118,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (1)"
     },
+
     {
       "day": "Monday",
       "group": 1,
@@ -136,6 +146,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2)"
     },
+
     {
       "day": "Monday",
       "group": 1,
@@ -147,6 +158,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(1,2)"
     },
+
     {
       "day": "Wednesday",
       "group": 1,
@@ -158,6 +170,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (11)"
     },
+
     {
       "day": "Wednesday",
       "group": 1,
@@ -185,6 +198,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(1)"
     },
+
     {
       "day": "Tuesday",
       "group": 1,
@@ -196,6 +210,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2,6)"
     },
+
     {
       "day": "Wednesday",
       "group": 1,
@@ -223,6 +238,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair, Shahd",
       "location": "Lab (1,9)"
     },
+
     {
       "day": "Sunday",
       "group": 1,
@@ -234,6 +250,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(1,2)"
     },
+
     {
       "day": "Tuesday",
       "group": 1,
@@ -245,6 +262,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2,6)"
     },
+
     {
       "day": "Wednesday",
       "group": 1,
@@ -272,6 +290,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(1)"
     },
+
     {
       "day": "Monday",
       "group": 2,
@@ -283,6 +302,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (1,2)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -294,6 +314,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair, Hader",
       "location": "Lab (1,5)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -321,6 +342,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (11)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -332,6 +354,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair, Hader",
       "location": "Lab (1,5)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -359,6 +382,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Shahd",
       "location": "Lab (9)"
     },
+
     {
       "day": "Sunday",
       "group": 2,
@@ -370,6 +394,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(1,2)"
     },
+
     {
       "day": "Monday",
       "group": 2,
@@ -381,6 +406,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -408,6 +434,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(2)"
     },
+
     {
       "day": "Tuesday",
       "group": 2,
@@ -419,6 +446,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2,6)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -430,6 +458,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab(9,10)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -457,6 +486,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(2)"
     },
+
     {
       "day": "Tuesday",
       "group": 2,
@@ -468,6 +498,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2,6)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -479,6 +510,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab(9,10)"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -506,6 +538,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2,6)"
     },
+
     {
       "day": "Wednesday",
       "group": 3,
@@ -517,6 +550,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair, Hader",
       "location": "Lab (1,5)"
     },
+
     {
       "day": "Wednesday",
       "group": 3,
@@ -544,6 +578,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (2,6)"
     },
+
     {
       "day": "Wednesday",
       "group": 3,
@@ -555,6 +590,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair, Hader",
       "location": "Lab (1,5)"
     },
+
     {
       "day": "Wednesday",
       "group": 3,
@@ -582,6 +618,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Shahd",
       "location": "Lab (9)"
     },
+
     {
       "day": "Sunday",
       "group": 3,
@@ -593,6 +630,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(1)"
     },
+
     {
       "day": "Monday",
       "group": 3,
@@ -604,6 +642,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "Lab (1)"
     },
+
     {
       "day": "Monday",
       "group": 3,
@@ -631,6 +670,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(1)"
     },
+
     {
       "day": "Sunday",
       "group": 3,
@@ -642,6 +682,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "B2"
     },
+
     {
       "day": "Sunday",
       "group": 3,
@@ -653,6 +694,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair",
       "location": "Lab (1)"
     },
+
     {
       "day": "Tuesday",
       "group": 3,
@@ -680,6 +722,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Sohair",
       "location": "Lab (1)"
     },
+
     {
       "day": "Sunday",
       "group": 3,
@@ -691,6 +734,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "B2"
     },
+
     {
       "day": "Monday",
       "group": 3,
@@ -702,6 +746,7 @@ window.TIMETABLE_DATA = {
       "instructor": null,
       "location": "IOT(2)"
     },
+
     {
       "day": "Tuesday",
       "group": 3,
@@ -729,6 +774,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr. Mostafa Mahmoud",
       "location": "T-01"
     },
+
     {
       "day": "Monday",
       "group": 2,
@@ -740,6 +786,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr. Mostafa Mahmoud",
       "location": "T-01"
     },
+
     {
       "day": "Monday",
       "group": 3,
@@ -763,6 +810,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr Mahmoud Dirar",
       "location": "F (T-01)"
     },
+
     {
       "day": "Tuesday",
       "group": 2,
@@ -774,6 +822,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr Mahmoud Dirar",
       "location": "F (T-01)"
     },
+
     {
       "day": "Tuesday",
       "group": 3,
@@ -797,6 +846,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr. Mina Younan",
       "location": "Building F (T-02)"
     },
+
     {
       "day": "Tuesday",
       "group": 2,
@@ -808,6 +858,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr. Mina Younan",
       "location": "Building F (T-02)"
     },
+
     {
       "day": "Tuesday",
       "group": 3,
@@ -831,6 +882,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr. Belal A Hamed",
       "location": "S-01"
     },
+
     {
       "day": "Wednesday",
       "group": 2,
@@ -842,6 +894,7 @@ window.TIMETABLE_DATA = {
       "instructor": "Dr. Belal A Hamed",
       "location": "S-01"
     },
+
     {
       "day": "Wednesday",
       "group": 3,
