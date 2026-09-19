@@ -44,6 +44,10 @@ window.TIMETABLE_DATA = {
 
   "sessions": [
 
+    /* =========================
+       GROUP 1
+       ========================= */
+
     {
       "day": "Sunday",
       "group": 1,
@@ -284,6 +288,10 @@ window.TIMETABLE_DATA = {
       "location": "Lab Lab(9,10)"
     },
 
+    /* =========================
+       GROUP 2
+       ========================= */
+
     {
       "day": "Monday",
       "group": 2,
@@ -523,6 +531,10 @@ window.TIMETABLE_DATA = {
       "instructor": "Not specified in PDF",
       "location": "Lab(9,10)"
     },
+
+    /* =========================
+       GROUP 3
+       ========================= */
 
     {
       "day": "Tuesday",
@@ -765,7 +777,7 @@ window.TIMETABLE_DATA = {
     },
 
     /* =========================
-       GROUP-WIDE LECTURES
+       LECTURES
        ========================= */
 
     {
