@@ -4,12 +4,12 @@
   const state = { group: null, section: null };
 
   const $ = (id) => document.getElementById(id);
+
   const groupOptions = $('groupOptions');
   const sectionOptions = $('sectionOptions');
   const viewBtn = $('viewBtn');
   const changeBtn = $('changeBtn');
   const emptyChangeBtn = $('emptyChangeBtn');
-  const printBtn = $('printBtn');
   const selectionScreen = $('selectionScreen');
   const timetableScreen = $('timetableScreen');
   const timetableGrid = $('timetableGrid');
@@ -123,6 +123,7 @@
       const button = document.createElement('button');
 
       button.type = 'button';
+
       button.className =
         `option-btn group-${group.id}` +
         (state.group === group.id ? ' selected' : '');
@@ -271,8 +272,13 @@
     studentTitle.textContent =
       `Group ${state.group} · Section ${state.section}`;
 
-    printGroup.textContent = String(state.group);
-    printSection.textContent = String(state.section);
+    if (printGroup) {
+      printGroup.textContent = String(state.group);
+    }
+
+    if (printSection) {
+      printSection.textContent = String(state.section);
+    }
 
     selectionScreen.classList.add('hidden');
     timetableScreen.classList.remove('hidden');
@@ -385,9 +391,11 @@
         }
 
         const slotEl = document.createElement('div');
+
         slotEl.className = 'mobile-slot';
 
         const title = document.createElement('div');
+
         title.className = 'mobile-slot-title';
         title.textContent = formatSlot(slot);
 
@@ -585,14 +593,6 @@
     link.click();
 
     link.remove();
-  });
-
-  printBtn.addEventListener('click', () => {
-    if (!state.group || !state.section) {
-      return;
-    }
-
-    window.print();
   });
 
   function showSelection() {
