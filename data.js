@@ -28,17 +28,17 @@ window.TIMETABLE_DATA = {
     {
       "id": 1,
       "label": "Group 1",
-      "sections": [1, 2, 3, 4, 5, 6]
+      "sections": [1, 2, 3, 4, 5]
     },
     {
       "id": 2,
       "label": "Group 2",
-      "sections": [7, 8, 9, 10, 11, 12]
+      "sections": [6, 7, 8, 9, 10]
     },
     {
       "id": 3,
       "label": "Group 3",
-      "sections": [13, 14, 15]
+      "sections": [11, 12, 13, 14, 15]
     }
   ],
 
@@ -294,7 +294,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Monday",
-      "group": 1,
+      "group": 2,
       "timeSlot": "01:00 PM – 03:00 PM",
       "course": "Pattern Recognition",
       "type": "Section",
@@ -306,7 +306,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Monday",
-      "group": 1,
+      "group": 2,
       "timeSlot": "03:00 PM – 05:00 PM",
       "course": "Selected Topics AI(1)",
       "type": "Section",
@@ -318,7 +318,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Wednesday",
-      "group": 1,
+      "group": 2,
       "timeSlot": "03:00 PM – 05:00 PM",
       "course": "Computational Perception",
       "type": "Section",
@@ -330,7 +330,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Wednesday",
-      "group": 1,
+      "group": 2,
       "timeSlot": "11:00 AM – 01:00 PM",
       "course": "Deep Learning",
       "type": "Section",
@@ -538,7 +538,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Tuesday",
-      "group": 2,
+      "group": 3,
       "timeSlot": "11:00 AM – 01:00 PM",
       "course": "Pattern Recognition",
       "type": "Section",
@@ -550,7 +550,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Wednesday",
-      "group": 2,
+      "group": 3,
       "timeSlot": "01:00 PM – 03:00 PM",
       "course": "Computational Perception",
       "type": "Section",
@@ -562,7 +562,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Wednesday",
-      "group": 2,
+      "group": 3,
       "timeSlot": "03:00 PM – 05:00 PM",
       "course": "Selected Topics AI(1)",
       "type": "Section",
@@ -574,7 +574,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Wednesday",
-      "group": 2,
+      "group": 3,
       "timeSlot": "09:00 AM – 11:00 AM",
       "course": "Deep Learning",
       "type": "Section",
@@ -586,7 +586,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Sunday",
-      "group": 2,
+      "group": 3,
       "timeSlot": "09:00 AM – 11:00 AM",
       "course": "Selected Topics AI(1)",
       "type": "Section",
@@ -598,7 +598,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Tuesday",
-      "group": 2,
+      "group": 3,
       "timeSlot": "11:00 AM – 01:00 PM",
       "course": "Pattern Recognition",
       "type": "Section",
@@ -610,7 +610,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Wednesday",
-      "group": 2,
+      "group": 3,
       "timeSlot": "01:00 PM – 03:00 PM",
       "course": "Computational Perception",
       "type": "Section",
@@ -622,7 +622,7 @@ window.TIMETABLE_DATA = {
 
     {
       "day": "Wednesday",
-      "group": 2,
+      "group": 3,
       "timeSlot": "09:00 AM – 11:00 AM",
       "course": "Deep Learning",
       "type": "Section",
