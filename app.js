@@ -24,24 +24,32 @@
   const printGroup = $('printGroup');
   const printSection = $('printSection');
 
+  const sectionStepNumber =
+    document.querySelector('.second-step .step-number');
+
   const GROUP_THEMES = {
     1: {
       name: 'Blue',
       dark: '#184b9c',
+      deep: '#123d82',
       light: '#eaf2ff',
       mid: '#b9cff6',
       text: '#173d78'
     },
+
     2: {
       name: 'Violet',
       dark: '#6b33c6',
+      deep: '#55279d',
       light: '#f1eafd',
       mid: '#d6bdf8',
       text: '#4f278f'
     },
+
     3: {
       name: 'Teal',
       dark: '#0f7f72',
+      deep: '#0a665c',
       light: '#e8f8f5',
       mid: '#b7e4dd',
       text: '#0c5c53'
@@ -116,6 +124,66 @@
     } catch (_) {}
   }
 
+  function applySelectionTheme() {
+    const theme = GROUP_THEMES[state.group];
+
+    if (!theme) {
+      viewBtn.style.background = '';
+      viewBtn.style.boxShadow = '';
+
+      if (sectionStepNumber) {
+        sectionStepNumber.style.background = '';
+        sectionStepNumber.style.color = '';
+        sectionStepNumber.style.border = '';
+        sectionStepNumber.style.boxShadow = '';
+      }
+
+      downloadBtn.classList.remove(
+        'download-group-1',
+        'download-group-2',
+        'download-group-3'
+      );
+
+      return;
+    }
+
+    /* =========================
+       VIEW MY TABLE
+       ========================= */
+
+    viewBtn.style.background =
+      `linear-gradient(180deg, ${theme.dark}, ${theme.deep})`;
+
+    viewBtn.style.boxShadow =
+      `0 14px 28px ${theme.dark}33`;
+
+    /* =========================
+       SELECT YOUR SECTION NUMBER
+       ========================= */
+
+    if (sectionStepNumber) {
+      sectionStepNumber.style.background = theme.light;
+      sectionStepNumber.style.color = theme.dark;
+      sectionStepNumber.style.border = `1px solid ${theme.mid}`;
+      sectionStepNumber.style.boxShadow =
+        `inset 0 0 0 1px ${theme.mid}`;
+    }
+
+    /* =========================
+       DOWNLOAD MY TIMETABLE
+       ========================= */
+
+    downloadBtn.classList.remove(
+      'download-group-1',
+      'download-group-2',
+      'download-group-3'
+    );
+
+    downloadBtn.classList.add(
+      `download-group-${state.group}`
+    );
+  }
+
   function renderGroups() {
     groupOptions.innerHTML = '';
 
@@ -145,6 +213,7 @@
         renderGroups();
         renderSections();
         updateViewButton();
+        applySelectionTheme();
 
         selectionStatus.textContent =
           `${group.label} selected. Choose a section ` +
@@ -205,6 +274,7 @@
 
         renderSections();
         updateViewButton();
+        applySelectionTheme();
 
         selectionStatus.textContent =
           `Ready: Group ${state.group} + Section ${state.section}.`;
@@ -259,50 +329,11 @@
 
     const theme = GROUP_THEMES[state.group];
 
-    downloadBtn.classList.remove(
-      'download-group-1',
-      'download-group-2',
-      'download-group-3'
-    );
-
-    downloadBtn.classList.add(
-      `download-group-${state.group}`
-    );
+    applySelectionTheme();
 
     colorBanner.textContent =
       `Group ${state.group} identity: ${theme.name} · ` +
       `Lecture cards use the darker tone; Section / Lab cards use the lighter tone.`;
-  }
-
-  if (!document.getElementById('downloadGroupThemeStyles')) {
-    const style = document.createElement('style');
-
-    style.id = 'downloadGroupThemeStyles';
-
-    style.textContent = `
-      #downloadBtn.download-group-1 {
-        background: linear-gradient(180deg, #184b9c, #123d82);
-        box-shadow: 0 14px 28px rgba(24, 75, 156, .22);
-      }
-
-      #downloadBtn.download-group-2 {
-        background: linear-gradient(180deg, #6b33c6, #55279d);
-        box-shadow: 0 14px 28px rgba(107, 51, 198, .22);
-      }
-
-      #downloadBtn.download-group-3 {
-        background: linear-gradient(180deg, #0f7f72, #0a665c);
-        box-shadow: 0 14px 28px rgba(15, 127, 114, .22);
-      }
-
-      #downloadBtn.download-group-1:hover:not(:disabled),
-      #downloadBtn.download-group-2:hover:not(:disabled),
-      #downloadBtn.download-group-3:hover:not(:disabled) {
-        filter: brightness(.95);
-      }
-    `;
-
-    document.head.appendChild(style);
   }
 
   function renderTimetable() {
@@ -641,6 +672,8 @@
 
     selectionScreen.classList.remove('hidden');
 
+    applySelectionTheme();
+
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
@@ -672,6 +705,7 @@
   renderGroups();
   renderSections();
   updateViewButton();
+  applySelectionTheme();
 
   if (state.group && state.section) {
     selectionStatus.textContent =
