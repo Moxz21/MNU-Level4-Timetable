@@ -256,17 +256,29 @@
 
     button.type = 'button';
 
+    const isSelected = state.section === section;
+
     button.className =
       'option-btn' +
-      (state.section === section ? ' section-selected' : '');
+      (isSelected ? ' section-selected' : '');
 
     button.textContent = `Section ${section}`;
     button.disabled = disabled;
 
     button.setAttribute(
       'aria-pressed',
-      String(state.section === section)
+      String(isSelected)
     );
+
+    if (isSelected && state.group) {
+      const theme = GROUP_THEMES[state.group];
+
+      button.style.borderColor = theme.dark;
+      button.style.background = theme.light;
+      button.style.color = theme.text;
+      button.style.boxShadow =
+        `inset 0 0 0 1px ${theme.dark}`;
+    }
 
     if (!disabled) {
       button.addEventListener('click', () => {
@@ -334,6 +346,37 @@
     colorBanner.textContent =
       `Group ${state.group} identity: ${theme.name} · ` +
       `Lecture cards use the darker tone; Section / Lab cards use the lighter tone.`;
+  }
+
+  if (!document.getElementById('downloadGroupThemeStyles')) {
+    const style = document.createElement('style');
+
+    style.id = 'downloadGroupThemeStyles';
+
+    style.textContent = `
+      #downloadBtn.download-group-1 {
+        background: linear-gradient(180deg, #184b9c, #123d82);
+        box-shadow: 0 14px 28px rgba(24, 75, 156, .22);
+      }
+
+      #downloadBtn.download-group-2 {
+        background: linear-gradient(180deg, #6b33c6, #55279d);
+        box-shadow: 0 14px 28px rgba(107, 51, 198, .22);
+      }
+
+      #downloadBtn.download-group-3 {
+        background: linear-gradient(180deg, #0f7f72, #0a665c);
+        box-shadow: 0 14px 28px rgba(15, 127, 114, .22);
+      }
+
+      #downloadBtn.download-group-1:hover:not(:disabled),
+      #downloadBtn.download-group-2:hover:not(:disabled),
+      #downloadBtn.download-group-3:hover:not(:disabled) {
+        filter: brightness(.95);
+      }
+    `;
+
+    document.head.appendChild(style);
   }
 
   function renderTimetable() {
