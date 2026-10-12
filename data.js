@@ -60,8 +60,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [1],
-      "instructor": "Sohair, Shahd",
-      "location": "Lab (1,9)"
+      "instructor": "Sohair",
+      "location": "Lab (1)"
     },
     {
       "day": "Wednesday",
@@ -156,7 +156,7 @@ window.TIMETABLE_DATA = {
     {
       "day": "Wednesday",
       "group": 1,
-      "timeSlot": "11:00 AM – 01:00 PM",
+      "timeSlot": "09:00 AM – 11:00 AM",
       "course": "Pattern Recognition",
       "type": "Section",
       "kind": "section",
@@ -172,8 +172,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [3],
-      "instructor": "Sohair, Hader",
-      "location": "Lab (1,5)"
+      "instructor": "Sohair",
+      "location": "Lab (1)"
     },
 
     {
@@ -196,18 +196,18 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [4],
       "instructor": null,
-      "location": "Lab (2,11)"
+      "location": "Lab (2)"
     },
     {
       "day": "Wednesday",
       "group": 1,
-      "timeSlot": "11:00 AM – 01:00 PM",
+      "timeSlot": "09:00 AM – 11:00 AM",
       "course": "Computational Perception",
       "type": "Section",
       "kind": "section",
       "sections": [4],
       "instructor": null,
-      "location": "Lab (9,10)"
+      "location": "Lab (9)"
     },
     {
       "day": "Wednesday",
@@ -217,8 +217,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [4],
-      "instructor": "Sohair, Hader",
-      "location": "Lab (1,5)"
+      "instructor": "Hader",
+      "location": "Lab (5)"
     },
 
     {
@@ -229,8 +229,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [5],
-      "instructor": "Sohair, Shahd",
-      "location": "Lab (1,9)"
+      "instructor": "Shahd",
+      "location": "Lab (9)"
     },
     {
       "day": "Tuesday",
@@ -241,7 +241,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [5],
       "instructor": null,
-      "location": "Lab (2,11)"
+      "location": "Lab (11)"
     },
     {
       "day": "Wednesday",
@@ -252,7 +252,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [5],
       "instructor": null,
-      "location": "Lab (9,10)"
+      "location": "Lab (10)"
     },
     {
       "day": "Wednesday",
@@ -296,8 +296,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [6],
-      "instructor": "Sohair, Hader",
-      "location": "Lab (1,5)"
+      "instructor": "Sohair",
+      "location": "Lab (1)"
     },
     {
       "day": "Wednesday",
@@ -308,7 +308,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [6],
       "instructor": null,
-      "location": "Lab (9,10)"
+      "location": "Lab (9)"
     },
 
     {
@@ -323,7 +323,7 @@ window.TIMETABLE_DATA = {
       "location": "Lab IOT(1)"
     },
     {
-      "day": "Wednesday",
+      "day": "Tuesday",
       "group": 2,
       "timeSlot": "09:00 AM – 11:00 AM",
       "course": "Pattern Recognition",
@@ -331,7 +331,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [7],
       "instructor": null,
-      "location": "Lab (11)"
+      "location": "Lab (2)"
     },
     {
       "day": "Wednesday",
@@ -341,8 +341,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [7],
-      "instructor": "Sohair, Hader",
-      "location": "Lab (1,5)"
+      "instructor": "Hader",
+      "location": "Lab (5)"
     },
     {
       "day": "Wednesday",
@@ -353,7 +353,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [7],
       "instructor": null,
-      "location": "Lab (9,10)"
+      "location": "Lab (10)"
     },
 
     {
@@ -413,15 +413,15 @@ window.TIMETABLE_DATA = {
       "location": "Lab (2)"
     },
     {
-      "day": "Tuesday",
+      "day": "Wednesday",
       "group": 2,
-      "timeSlot": "09:00 AM – 11:00 AM",
+      "timeSlot": "11:00 AM – 01:00 PM",
       "course": "Pattern Recognition",
       "type": "Section",
       "kind": "section",
       "sections": [9],
       "instructor": null,
-      "location": "Lab (2,11)"
+      "location": "Lab (11)"
     },
     {
       "day": "Tuesday",
@@ -442,8 +442,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [9],
-      "instructor": "Sohair, Hader",
-      "location": "Lab (1,5)"
+      "instructor": "Sohair",
+      "location": "Lab (1)"
     },
 
     {
@@ -466,12 +466,12 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [10],
       "instructor": null,
-      "location": "Lab (2,11)"
+      "location": "Lab (11)"
     },
     {
       "day": "Wednesday",
       "group": 2,
-      "timeSlot": "09:00 AM – 11:00 AM",
+      "timeSlot": "11:00 AM – 01:00 PM",
       "course": "Computational Perception",
       "type": "Section",
       "kind": "section",
@@ -487,8 +487,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [10],
-      "instructor": "Sohair, Hader",
-      "location": "Lab (1,5)"
+      "instructor": "Hader",
+      "location": "Lab (5)"
     },
 
     {
@@ -500,7 +500,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [11],
       "instructor": null,
-      "location": "Lab (2,11)"
+      "location": "Lab (2)"
     },
     {
       "day": "Wednesday",
@@ -510,8 +510,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [11],
-      "instructor": "Sohair, Hader",
-      "location": "Lab (1,5)"
+      "instructor": "Sohair",
+      "location": "Lab (1)"
     },
     {
       "day": "Wednesday",
@@ -522,7 +522,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [11],
       "instructor": null,
-      "location": "Lab (9,10)"
+      "location": "Lab (9)"
     },
     {
       "day": "Wednesday",
@@ -556,7 +556,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [12],
       "instructor": null,
-      "location": "Lab (2,11)"
+      "location": "Lab (11)"
     },
     {
       "day": "Wednesday",
@@ -566,8 +566,8 @@ window.TIMETABLE_DATA = {
       "type": "Section",
       "kind": "section",
       "sections": [12],
-      "instructor": "Sohair, Hader",
-      "location": "Lab (1,5)"
+      "instructor": "Hader",
+      "location": "Lab (5)"
     },
     {
       "day": "Wednesday",
@@ -578,7 +578,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [12],
       "instructor": null,
-      "location": "Lab (9,10)"
+      "location": "Lab (10)"
     },
 
     {
@@ -604,9 +604,9 @@ window.TIMETABLE_DATA = {
       "location": "Lab IOT(1)"
     },
     {
-      "day": "Wednesday",
+      "day": "Sunday",
       "group": 3,
-      "timeSlot": "09:00 AM – 11:00 AM",
+      "timeSlot": "03:00 PM – 05:00 PM",
       "course": "Deep Learning",
       "type": "Section",
       "kind": "section",
@@ -668,7 +668,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [14],
       "instructor": null,
-      "location": "Lab (2,11)"
+      "location": "Lab (2)"
     },
 
     {
@@ -713,7 +713,7 @@ window.TIMETABLE_DATA = {
       "kind": "section",
       "sections": [15],
       "instructor": null,
-      "location": "Lab (2,11)"
+      "location": "Lab (11)"
     },
 
     {
@@ -724,7 +724,7 @@ window.TIMETABLE_DATA = {
       "type": "Group",
       "kind": "lecture",
       "sections": ["ALL"],
-      "instructor": null,
+      "instructor": "Dr. Enas Elgeldawi",
       "location": "G (T01)"
     },
     {
@@ -735,7 +735,7 @@ window.TIMETABLE_DATA = {
       "type": "Group",
       "kind": "lecture",
       "sections": ["ALL"],
-      "instructor": null,
+      "instructor": "Dr. Enas Elgeldawi",
       "location": "G (T01)"
     },
     {
@@ -746,7 +746,7 @@ window.TIMETABLE_DATA = {
       "type": "Group",
       "kind": "lecture",
       "sections": ["ALL"],
-      "instructor": null,
+      "instructor": "Dr. Enas Elgeldawi",
       "location": "G (T01)"
     },
 
@@ -759,88 +759,88 @@ window.TIMETABLE_DATA = {
       "kind": "lecture",
       "sections": ["ALL"],
       "instructor": "Dr. Mostafa Mahmoud",
-      "location": "F(S-01)"
-    },
-    {
-      "day": "Monday",
-      "group": 2,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "AI Lab",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": "Dr. Mostafa Mahmoud",
-      "location": "F(S-01)"
-    },
-    {
-      "day": "Monday",
-      "group": 3,
-      "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "AI Lab",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": "Dr. Mostafa Mahmoud",
-      "location": "F(S-01)"
-    },
-
-    {
-      "day": "Tuesday",
-      "group": 1,
-      "timeSlot": "11:00 AM – 01:00 PM",
-      "course": "Pattern Recognition",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": "Dr. Mina Younan",
-      "location": "Building F (S-02)"
-    },
-    {
-      "day": "Tuesday",
-      "group": 2,
-      "timeSlot": "01:00 PM – 03:00 PM",
-      "course": "Pattern Recognition",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": "Dr. Mina Younan",
-      "location": "Building F (S-02)"
-    },
-    {
-      "day": "Tuesday",
-      "group": 3,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "Pattern Recognition",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": "Dr. Mina Younan",
-      "location": "Building F (S-02)"
-    },
-
-    {
-      "day": "Wednesday",
-      "group": 1,
-      "timeSlot": "09:00 AM – 11:00 AM",
-      "course": "Computational Perception",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": "Dr Mahmoud Dirar",
-      "location": "G(T-02)"
-    },
-    {
-      "day": "Tuesday",
-      "group": 2,
-      "timeSlot": "11:00 AM – 01:00 PM",
-      "course": "Computational Perception",
-      "type": "Lecture",
-      "kind": "lecture",
-      "sections": ["ALL"],
-      "instructor": "Dr Mahmoud Dirar",
       "location": "F (S-01)"
     },
     {
+      "day": "Monday",
+      "group": 2,
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "AI Lab",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Dr. Mostafa Mahmoud",
+      "location": "F (S-01)"
+    },
+    {
+      "day": "Monday",
+      "group": 3,
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "AI Lab",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Dr. Mostafa Mahmoud",
+      "location": "F (S-01)"
+    },
+
+    {
+      "day": "Tuesday",
+      "group": 1,
+      "timeSlot": "11:00 AM – 01:00 PM",
+      "course": "Pattern Recognition",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Dr. Mina Younan",
+      "location": "Building F (S-02)"
+    },
+    {
+      "day": "Tuesday",
+      "group": 2,
+      "timeSlot": "01:00 PM – 03:00 PM",
+      "course": "Pattern Recognition",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Dr. Mina Younan",
+      "location": "Building F (S-02)"
+    },
+    {
+      "day": "Tuesday",
+      "group": 3,
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "Pattern Recognition",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Dr. Mina Younan",
+      "location": "Building F (S-02)"
+    },
+
+    {
+      "day": "Tuesday",
+      "group": 1,
+      "timeSlot": "03:00 PM – 05:00 PM",
+      "course": "Computational Perception",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Dr. Mahmoud Dirar",
+      "location": "F (S-01)"
+    },
+    {
+      "day": "Wednesday",
+      "group": 2,
+      "timeSlot": "09:00 AM – 11:00 AM",
+      "course": "Computational Perception",
+      "type": "Lecture",
+      "kind": "lecture",
+      "sections": ["ALL"],
+      "instructor": "Dr. Mahmoud Dirar",
+      "location": "G (T-02)"
+    },
+    {
       "day": "Tuesday",
       "group": 3,
       "timeSlot": "01:00 PM – 03:00 PM",
@@ -848,7 +848,7 @@ window.TIMETABLE_DATA = {
       "type": "Lecture",
       "kind": "lecture",
       "sections": ["ALL"],
-      "instructor": "Dr Mahmoud Dirar",
+      "instructor": "Dr. Mahmoud Dirar",
       "location": "F (S-01)"
     },
 
@@ -860,7 +860,7 @@ window.TIMETABLE_DATA = {
       "type": "Lecture",
       "kind": "lecture",
       "sections": ["ALL"],
-      "instructor": "Dr. Belal A Hamed",
+      "instructor": "Dr. Belal A. Hamed",
       "location": "G (S-01)"
     },
     {
@@ -871,8 +871,8 @@ window.TIMETABLE_DATA = {
       "type": "Lecture",
       "kind": "lecture",
       "sections": ["ALL"],
-      "instructor": "Dr. Belal A Hamed",
-      "location": "G(S-01)"
+      "instructor": "Dr. Belal A. Hamed",
+      "location": "G (S-01)"
     },
     {
       "day": "Wednesday",
@@ -882,8 +882,8 @@ window.TIMETABLE_DATA = {
       "type": "Lecture",
       "kind": "lecture",
       "sections": ["ALL"],
-      "instructor": "Dr. Belal A Hamed",
-      "location": "G(S-01)"
+      "instructor": "Dr. Belal A. Hamed",
+      "location": "G (S-01)"
     }
   ]
 };
