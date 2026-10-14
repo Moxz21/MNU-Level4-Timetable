@@ -65,7 +65,7 @@ window.TIMETABLE_DATA = {
     {"day":"Sunday","group":3,"timeSlot":"09:00 AM – 11:00 AM","course":"Deep Learning","type":"Section","kind":"section","sections":[13],"instructor":"Shahd","location":"Lab 9"},
     {"day":"Monday","group":3,"timeSlot":"01:00 PM – 03:00 PM","course":"Pattern Recognition","type":"Section","kind":"section","sections":[13],"instructor":null,"location":"Lab 1"},
     {"day":"Tuesday","group":3,"timeSlot":"11:00 AM – 01:00 PM","course":"Selected Topics AI (1)","type":"Section","kind":"section","sections":[13],"instructor":null,"location":"IOT Lab (1)"},
-    {"day":"Wednesday","group":3,"timeSlot":"03:00 PM – 05:00 PM","course":"Computational Perception","type":"Section","kind":"section","sections":[13],"instructor":null,"location":"Lab 10"},
+    {"day":"Wednesday","group":3,"timeSlot":"09:00 AM – 11:00 AM","course":"Computational Perception","type":"Section","kind":"section","sections":[13],"instructor":null,"location":"Lab 10"},
 
     {"day":"Sunday","group":3,"timeSlot":"01:00 PM – 03:00 PM","course":"Computational Perception","type":"Section","kind":"section","sections":[14],"instructor":null,"location":"Lab B2"},
     {"day":"Sunday","group":3,"timeSlot":"03:00 PM – 05:00 PM","course":"Deep Learning","type":"Section","kind":"section","sections":[14],"instructor":"Sohair","location":"Lab 1"},
